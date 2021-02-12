@@ -1,16 +1,16 @@
 body{
   background-repeat: repeat;
-  background-color:#FFF;
+  background-color:white;
 }
 
-h1{
+.golden{
+ font-color: #814b20;
  font-family: 'Arvo', serif;
  position: absolute;
  left: 30%;
  top:4%;
  font-size:1.5rem;
  letter-spacing:1rem;
- font-color: #FFF;
  animation: shake 0.4s;
  animation-delay: 0.2s;
 }
@@ -38,6 +38,7 @@ p {
 }
 
 footer{
+  font-color: #814b20;
  font-family: 'Arvo', serif;
  text-align:center;
  position: absolute;
@@ -46,6 +47,7 @@ footer{
  animation: shake 0.4s;
  animation-delay: 1.4s;
 }
+
 
 #wrapper{
   border-style: solid;
@@ -60,6 +62,7 @@ footer{
  border-style:solid;
  animation: shake 0.4s;
  animation-delay: 0.8s;
+ background-color: white;
 }
 
 .soup {
