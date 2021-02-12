@@ -1,7 +1,7 @@
 body{
   background-size:100% 100%;
   background-repeat: no-repeat;
-  background-color:#FFF;
+  background-color:#0a0501;
   background-image: url
 }
 
@@ -10,7 +10,7 @@ a{
   font-size:7rem;
   letter-spacing:2rem;
   text-decoration:none;
-  color:#0a0501;
+  color:#905322;
   position: absolute;
   top: 40%;
   left: 30%;
@@ -25,20 +25,3 @@ p{
 
 }
 
-
-
-footer{
-  display: inline-block;
-}
-
-.wrap{
-  float:left;
-}
-
-.grocery{
-  float:right;
-}
-
-.store{
-  float:right;
-}
