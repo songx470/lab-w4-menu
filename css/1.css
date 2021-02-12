@@ -1,0 +1,76 @@
+body{
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-image: url("../img/7.png");
+}
+
+h1,h2{
+  font-family:'Open Sans', sans-serif;
+  font-size:1.5rem;
+  font-weight:800;
+  padding:2rem;
+  white-space:wrap;
+  margin-right:22rem;
+  margin-bottom:1rem;
+}
+
+/* 主体 */
+#wrapper{
+  /* 宽度 */
+  width: 90%;
+
+  /* 外间距 上下为0 左右自动（居中） */
+  margin: 0 auto;
+
+  /* 最小宽度1600px */
+  min-width: 1600px;
+
+  /* 上间距 */
+  margin-top: 30px;
+}
+
+/* 通用内容框架 */
+#wrapper section{
+
+  /* 分为3列 每列33.33% ， 去掉两边外间距2% x 2 = 6% */
+  width: 29.33%;
+
+  /* 左浮动 */
+  float: left;
+
+  /* 外间距 上下0 左右2% */
+  margin: 0 2%;
+
+  /* 最小狂赌450px */
+  min-width: 450px;
+}
+
+#wrapper section iframe{
+  /* 元素将显示为块级元素 */
+  display: block;
+  /* 外间距 上下为0 左右自动（居中） */
+  margin: 0 auto;
+}
+
+#wrapper .spotify{
+  /* 下间距90px */
+  margin-bottom: 90px;
+}
+
+
+footer{
+  display: inline-block;
+}
+
+.wrap{
+  float:left;
+}
+
+.grocery{
+  float:right;
+}
+
+.store{
+  float:right;
+}
