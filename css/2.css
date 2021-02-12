@@ -1,10 +1,11 @@
 body{
-  background-repeat: repeat;
-  background-color:white;
+  background-repeat:no-repeat;
+  background-color:#0a0501;
 }
 
 .golden{
- font-color: #814b20;
+ border-width: 1.5px;
+ border-style:solid;
  font-family: 'Arvo', serif;
  position: absolute;
  left: 30%;
@@ -13,6 +14,8 @@ body{
  letter-spacing:1rem;
  animation: shake 0.4s;
  animation-delay: 0.2s;
+ background-color:white;
+ background-image:url("../img/4.jpg");
 }
 
 h2{
@@ -37,8 +40,10 @@ p {
   text-align:center;
 }
 
+
+
 footer{
-  font-color: #814b20;
+ font-color: #814b20;
  font-family: 'Arvo', serif;
  text-align:center;
  position: absolute;
@@ -46,6 +51,8 @@ footer{
  left: 45%;
  animation: shake 0.4s;
  animation-delay: 1.4s;
+ background-color:white;
+ background-image:url("../img/4.jpg");
 }
 
 
@@ -74,8 +81,7 @@ footer{
  border-style:solid;
  animation: shake 0.4s;
  animation-delay: 0.8s;
-
-
+ background-color: white;
 }
 
 .drink{
@@ -87,6 +93,7 @@ footer{
  border-style:solid;
  animation: shake 0.4s;
  animation-delay: 0.8s;
+ background-color: white;
 }
 
 @keyframes shake {
